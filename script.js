@@ -23,7 +23,7 @@ const songs = [
     },
     {
         title: "90s Boom Bap Chill Jazz x LoFi Type Beat - Games",
-        path: "assets/music/\\(FREE FOR PROFIT\\) 90s Boom Bap Chill Jazz x LoFi Type Beat - Games.mp3"
+        path: "assets/music/(FREE FOR PROFIT) 90s Boom Bap Chill Jazz x LoFi Type Beat - Games.mp3"
     }
 ];
 
