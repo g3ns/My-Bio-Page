@@ -33,7 +33,7 @@ let isPlaying = false;
 let isMuted = false;
 
 // Typewriter Setup
-const texts = ["I am just a human", "Awesome and Cool Developer"];
+const texts = ["I am just a human", "Awesome and Cool Developer", "Full Stack Developer", "Linux Enthusiast", "Open Source Contributor"];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;

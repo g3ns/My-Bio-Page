@@ -5,6 +5,50 @@
     box-sizing: border-box;
 }
 
+/* GitHub Projects */
+.github-projects {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.github-projects h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.project-link {
+    display: block;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.project-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}
 body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
